@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open("E:\ML project\SVM\model pickel","rb"))
+loaded_model = pickle.load(open("Model_heart_disease_prediction","rb"))
 
 def heart_disease_prediction(input_data):
     input_data_as_np_array = np.asarray(input_data)
